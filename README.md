@@ -22,7 +22,7 @@
 | :---------------------------------------------------: | :----------------------------------: | :----------------------------------------------: |
 |<img width="300" src="https://user-images.githubusercontent.com/95124230/174224486-37bfd010-f0c5-453e-a665-76bb216e01c6.gif"></br>[Move to Target](https://azarzadavila-manim.readthedocs.io/en/latest/animation.html#movetotarget)|<img width="300" src="https://user-images.githubusercontent.com/95124230/174225185-fd978ff2-9e38-4511-a1ee-07e2e0071c62.gif"></br>[Scale in Place](https://azarzadavila-manim.readthedocs.io/en/latest/animation.html#scaleinplace)|<img width="300" src="https://user-images.githubusercontent.com/95124230/174225341-22d593e8-7919-4d1e-8ac6-76da81f8abb9.gif"></br>[Shrink to Center](https://azarzadavila-manim.readthedocs.io/en/latest/animation.html#shrinktocenter)|
 |<img width="300" src="https://user-images.githubusercontent.com/95124230/174225513-6a2fb5e5-b0f9-4070-82b0-83632928b852.gif"></br>[Apply Matrix](https://azarzadavila-manim.readthedocs.io/en/latest/animation.html#applymatrix)|<img width="300" src="https://user-images.githubusercontent.com/95124230/174225845-ec3cab88-091f-44d9-b81f-8478f4f64e24.gif"></br>[Complex Function](https://azarzadavila-manim.readthedocs.io/en/latest/animation.html#applycomplexfunction)|<img width="300" src="https://user-images.githubusercontent.com/95124230/174225978-559688c4-9eee-461c-8fa3-913f6f49e516.gif"></br>[Cyclic Replace](https://azarzadavila-manim.readthedocs.io/en/latest/animation.html#cyclicreplace)|
-|[Swap](https://azarzadavila-manim.readthedocs.io/en/latest/animation.html#swap)| | |
+|<img width="300" alt="Swap"></br>[Swap](https://azarzadavila-manim.readthedocs.io/en/latest/animation.html#swap)| | |
 
 
 

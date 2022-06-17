@@ -2,6 +2,7 @@
 
 [Mobject](https://docs.manim.community/en/stable/reference/manim.mobject.mobject.Mobject.html#manim.mobject.mobject.Mobject.arrange)  
 [Demo](https://docs.manim.community/en/stable/examples.html)
+[Text, Tex, MathTex](https://docs.manim.community/en/stable/tutorials/using_text.html)
 
 ## Object Appering
 |                                                       |                                      |                                                  |

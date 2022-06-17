@@ -1,5 +1,7 @@
 # MathAnimation
 
+[Mobject](https://docs.manim.community/en/stable/reference/manim.mobject.mobject.Mobject.html#manim.mobject.mobject.Mobject.arrange)
+
 ## Object Appering
 |                                                       |                                      |                                                  |
 | :---------------------------------------------------: | :----------------------------------: | :----------------------------------------------: |

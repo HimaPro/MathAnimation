@@ -136,6 +136,33 @@ class Graphing(Scene):
         self.wait()
         self.play(Create(area))
         self.wait()
+        
+        
+class UpdaterGraph(Scene):
+    def construct(self):
+        k= ValueTracker(-3)
+
+        ax = Axes(x_range=[-3,3,1], y_range=[-10,10,2], x_length=10, y_length=6).to_edge(DOWN).add_coordinates().set_color(WHITE)
+
+        func = ax.plot(lambda x: 0.5*x**3-1*x, x_range=[-3,3], color=BLUE)
+
+        slope = always_redraw(
+            lambda: ax.get_secant_slope_group(
+                x=k.get_value(),
+                graph=func,
+                dx=0.01,
+                secant_line_color=GREEN,
+                secant_line_length=3
+            )
+        )
+
+        pt = always_redraw(
+            lambda : Dot().move_to(ax.c2p(k.get_value(),func.underlying_function(k.get_value())))
+        )
+
+        self.add(ax, func, slope, pt)
+        self.wait()
+        self.play(k.animate.set_value(3), run_time=3)
 
 # if you implement this program on PyCharm, you will not save the movie.
 # use this command instead to save rendered images

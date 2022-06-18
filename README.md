@@ -52,6 +52,12 @@ ax.color=BLACK
 dot = Dot(ax.i2gp(graph.t_min, graph), color=BLUE)
 ```
 
+```py
+# どの場合でもset_color()は使える。正しIDE内で注意が出る
+ax = Axes(x_range=[-1, 10], y_range=[-1, 10]).set_color(BLACK)  
+dot = Dot(ax.i2gp(graph.t_min, graph)).set_color(BLUE)
+```
+
 <br>
 
 # アニメーションギャラリー

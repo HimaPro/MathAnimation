@@ -45,9 +45,7 @@ class SetBackGroundColor(MovingCameraScene):
 # 座標軸はVectrolized Mobjectsのグループなので直接的にAxes(color=BLACK)とはできない
 ax = Axes(x_range=[-1, 10], y_range=[-1, 10])  
 ax.color=BLACK
-```
 
-```py
 # Mobjectは生成時にcolorを指定することができる
 dot = Dot(ax.i2gp(graph.t_min, graph), color=BLUE)
 ```

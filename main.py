@@ -11,7 +11,7 @@ class FollowingGraphCamera(MovingCameraScene):
         self.camera.frame.save_state()
 
         # create the axes and the curve
-        ax = Axes(x_range=[-1, 10], y_range=[-1, 10]).set_color(BLACK)
+        ax = Axes(x_range=[-1, 10], y_range=[-1, 10]).set_color(WHITE)
         # ax.color=BLACK
         graph = ax.plot(lambda x: np.sin(x), color=BLUE, x_range=[0, 3 * PI]).set_color(BLACK)
         # graph.set_color(BLACK)
@@ -34,6 +34,10 @@ class FollowingGraphCamera(MovingCameraScene):
         self.play(Restore(self.camera.frame))
 
 
+
+# if you implement this program on PyCharm, you will not save the movie.
+# use this command instead to save rendered images
+# manim -pql main.py FollowingGraphCamera
 if __name__ == '__main__':
     scene = FollowingGraphCamera()
     scene.render()  # That's it!

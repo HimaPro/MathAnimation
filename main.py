@@ -60,3 +60,8 @@ if __name__ == '__main__':
     # the movie file in the default video player
     # (there is a little different syntax to open an image)
     open_media_file(scene.renderer.file_writer.movie_file_path)
+    
+    
+    
+    
+    

@@ -1,4 +1,6 @@
 from manim import *
+
+# https://stackoverflow.com/questions/66642657/is-it-possible-to-run-manim-programmatically-and-not-from-the-command-line
 # To open the movie after render.
 from manim.utils.file_ops import open_file as open_media_file
 

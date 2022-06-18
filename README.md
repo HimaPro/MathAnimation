@@ -1,5 +1,11 @@
 # MathAnimation
 
+## メモ
+* ax.get_area(): グラフに囲まれた部分を塗りつぶす  
+* 
+
+
+
 ## インストール(Installation)
 <details><summary>For Mac OS: (https://docs.manim.community/en/stable/installation/macos.html)</summary>
 

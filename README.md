@@ -1,13 +1,16 @@
 # MathAnimation
 
 ## Installation
-### For Mac OS: (https://docs.manim.community/en/stable/installation/macos.html)
+<details><summary>For Mac OS: (https://docs.manim.community/en/stable/installation/macos.html)</summary>
+
 1. Youtubeを参考にインストール-->[Youtube解説](https://youtu.be/EEBCcySkuxA)
 3. Pycharmでインタプリタを選択（/opt/homebrew/bin/python3）
 4. 必要ならパッケージをインストール
 5. Terminal(Pycharmから)上で、manim -pql main.py CreateCircle を実行すると映像が出力される
+</details>
 
-### For Windows OS: (https://docs.manim.community/en/stable/installation/windows.html)
+<details><summary>For Windows OS: (https://docs.manim.community/en/stable/installation/windows.html)</summary>
+  
 1. Scoopをインストールするために、PowerShell(管理者権限なしで)を開く
 2. Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a remote script the first time(入力が求められるのでAを入力しエンターを押す)
 4. irm get.scoop.sh | iex
@@ -21,8 +24,7 @@
 12. C:\\Users\\user\\scoop\\apps\\python\\3.10.5\\python.exeを選択
 13. 必要なパッケージをインストール(manim, latex)
 14. Terminal(Pycharmから)上で、manim -pql main.py CreateCircle を実行すると映像が出力される
-
-<br>
+</details>
 
 ## Useful Links
 [Mobject](https://docs.manim.community/en/stable/reference/manim.mobject.mobject.Mobject.html#manim.mobject.mobject.Mobject.arrange)  

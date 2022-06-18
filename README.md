@@ -2,7 +2,7 @@
 
 ## Installation
 ### For Mac OS:  
-1. Youtubeを参考にインストール
+1. Youtubeを参考にインストール[インストール手順](https://youtu.be/EEBCcySkuxA)
 2. Pycharmでインタプリタを選択（/opt/homebrew/bin/python3）
 3. 必要ならパッケージをインストール
 4. Terminal(Pycharmから)上で、manim -pql main.py CreateCircle を実行すると映像が出力される

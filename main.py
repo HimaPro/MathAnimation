@@ -4,9 +4,22 @@ from manim import *
 # To open the movie after render.
 from manim.utils.file_ops import open_file as open_media_file
 
+Quality_16_9 = {"LOW"       :[512,288],
+                "MEDIUM"    :[768,432],
+                "HD"        :[1280,720],
+                "FULL_HD"   :[1920,1080],
+                "4K"        :[4096,2160],
+                "8K"        :[7680,4320]}
+FrameRate = 15
+
+# https://gitlab1.cs.cityu.edu.hk/gsalter2/dockers/-/blob/37836f254c8fcc10f70b991eb0c6f5c31378bcb4/manim/docs/source/tutorials/configuration.rst
+config.background_color = WHITE
+config.frame_rate = FrameRate
+config.pixel_width, config.pixel_height = Quality_16_9["LOW"]
+
 class FollowingGraphCamera(MovingCameraScene):
     def construct(self):
-        self.camera.background_color=WHITE
+        # self.camera.background_color=WHITE
 
         self.camera.frame.save_state()
 

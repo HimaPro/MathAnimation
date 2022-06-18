@@ -32,6 +32,13 @@
 [Demo2](https://3b1b.github.io/manim/getting_started/example_scenes.html)  
 [Text, Tex, MathTex](https://docs.manim.community/en/stable/tutorials/using_text.html)  
 
+## 映像の出力コマンド
+-p : 実行後に動画を表示  
+-ql, -qm, -qh : 低画質, 中画質, 高画質
+```bt
+manim -pql main.py Test
+```
+
 ## 色の割り当て(Set Color to Mobject/VGroup)
 
 ```py

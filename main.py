@@ -11,15 +11,16 @@ class FollowingGraphCamera(MovingCameraScene):
         self.camera.frame.save_state()
 
         # create the axes and the curve
-        ax = Axes(x_range=[-1, 10], y_range=[-1, 10]).set_color(WHITE)
-        # ax.color=BLACK
-        graph = ax.plot(lambda x: np.sin(x), color=BLUE, x_range=[0, 3 * PI]).set_color(BLACK)
-        # graph.set_color(BLACK)
+        ax = Axes(x_range=[-1, 10], y_range=[-1, 10])
+        ax.color=BLACK
+        # ax = Axes(x_range=[-1, 10], y_range=[-1, 10]).set_color(RED)
+
+        graph = ax.plot(lambda x: np.sin(x), color=GRAY, x_range=[0, 3 * PI])
 
         # create dots based on the graph
         moving_dot = Dot(ax.i2gp(graph.t_min, graph), color=ORANGE)
-        dot_1 = Dot(ax.i2gp(graph.t_min, graph)).set_color(BLUE)
-        dot_2 = Dot(ax.i2gp(graph.t_max, graph)).set_color(GREEN)
+        dot_1 = Dot(ax.i2gp(graph.t_min, graph), color=BLUE)
+        dot_2 = Dot(ax.i2gp(graph.t_max, graph), color=GREEN)
 
         self.add(ax, graph, dot_1, dot_2, moving_dot)
         self.play(self.camera.frame.animate.scale(0.5).move_to(moving_dot))

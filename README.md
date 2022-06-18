@@ -2,10 +2,10 @@
 
 ## Installation
 ### For Mac OS: (https://docs.manim.community/en/stable/installation/macos.html)
-1. Youtubeを参考にインストール[インストール手順](https://youtu.be/EEBCcySkuxA)
-2. Pycharmでインタプリタを選択（/opt/homebrew/bin/python3）
-3. 必要ならパッケージをインストール
-4. Terminal(Pycharmから)上で、manim -pql main.py CreateCircle を実行すると映像が出力される
+1. Youtubeを参考にインストール-->[Youtube解説](https://youtu.be/EEBCcySkuxA)
+3. Pycharmでインタプリタを選択（/opt/homebrew/bin/python3）
+4. 必要ならパッケージをインストール
+5. Terminal(Pycharmから)上で、manim -pql main.py CreateCircle を実行すると映像が出力される
 
 ### For Windows OS: (https://docs.manim.community/en/stable/installation/windows.html)
 1. Scoopをインストールするために、PowerShell(管理者権限なしで)を開く

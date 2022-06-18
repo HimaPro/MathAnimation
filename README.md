@@ -31,6 +31,9 @@
 [Demo1](https://docs.manim.community/en/stable/examples.html)  
 [Demo2](https://3b1b.github.io/manim/getting_started/example_scenes.html)  
 [Text, Tex, MathTex](https://docs.manim.community/en/stable/tutorials/using_text.html)  
+[16:9解像度表](https://uzurea.net/resolution-16-9/)  
+[設定ファイルの変更](https://gitlab1.cs.cityu.edu.hk/gsalter2/dockers/-/blob/37836f254c8fcc10f70b991eb0c6f5c31378bcb4/manim/docs/source/tutorials/configuration.rst
+)  
 
 ## 映像の出力コマンド
 -p : 実行後に動画を表示  

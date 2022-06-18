@@ -1,6 +1,6 @@
 # MathAnimation
 
-## Installation
+## インストール(Installation)
 <details><summary>For Mac OS: (https://docs.manim.community/en/stable/installation/macos.html)</summary>
 
 1. Youtubeを参考にインストール-->[Youtube解説](https://youtu.be/EEBCcySkuxA)
@@ -26,7 +26,7 @@
 14. Terminal(Pycharmから)上で、manim -pql main.py CreateCircle を実行すると映像が出力される
 </details>
 
-## Useful Links
+## リンク集(Useful Links)
 [Mobject](https://docs.manim.community/en/stable/reference/manim.mobject.mobject.Mobject.html#manim.mobject.mobject.Mobject.arrange)  
 [Demo1](https://docs.manim.community/en/stable/examples.html)  
 [Demo2](https://3b1b.github.io/manim/getting_started/example_scenes.html)  
@@ -52,8 +52,10 @@ class SetBackGroundColor(MovingCameraScene):
         self.camera.background_color = WHITE
 ```
 
+<br>
 
-## Object Appering
+# アニメーションギャラリー
+## 描画(Object Appering)
 |                                                       |                                      |                                                  |
 | :---------------------------------------------------: | :----------------------------------: | :----------------------------------------------: |
 |<img width="300" src="https://user-images.githubusercontent.com/95124230/174217020-8a271bbd-6283-478a-8101-a7bbe0001ba5.gif"></br>[Fade In / Out](https://azarzadavila-manim.readthedocs.io/en/latest/animation.html#fade)|<img width="300" src="https://user-images.githubusercontent.com/95124230/174215393-e942fad6-c12f-4d85-bb9c-cabe781a8207.gif"></br>[Fade In / Out and Shift]()|<img width="300" src="https://user-images.githubusercontent.com/95124230/174218309-fd9804de-8529-430d-9e8a-27d3e3407e8e.gif"></br>[Grow from Edge](https://azarzadavila-manim.readthedocs.io/en/latest/animation.html#grow)|
@@ -63,14 +65,14 @@ class SetBackGroundColor(MovingCameraScene):
 
 <br>
 
-## Text Appering
+## テキスト描画(Text Appering)
 |                                                       |                                      |                                                  |
 | :---------------------------------------------------: | :----------------------------------: | :----------------------------------------------: |
 |<img width="300" src="https://user-images.githubusercontent.com/95124230/174223512-b03b9ff9-dd4b-4016-9e8a-691744c83b96.gif"></br>[Write](https://azarzadavila-manim.readthedocs.io/en/latest/animation.html#write)|<img width="300" src="https://user-images.githubusercontent.com/95124230/174223787-b9cdeb6b-f90e-45b1-81fc-7baf910e638f.gif"></br>[Add Text Word by Word](https://azarzadavila-manim.readthedocs.io/en/latest/animation.html#addtextwordbyword)| |
 
 <br>
 
-## Movement
+## 移動(Movement)
 |                                                       |                                      |                                                  |
 | :---------------------------------------------------: | :----------------------------------: | :----------------------------------------------: |
 |<img width="300" src="https://user-images.githubusercontent.com/95124230/174224486-37bfd010-f0c5-453e-a665-76bb216e01c6.gif"></br>[Move to Target](https://azarzadavila-manim.readthedocs.io/en/latest/animation.html#movetotarget)|<img width="300" src="https://user-images.githubusercontent.com/95124230/174225185-fd978ff2-9e38-4511-a1ee-07e2e0071c62.gif"></br>[Scale in Place](https://azarzadavila-manim.readthedocs.io/en/latest/animation.html#scaleinplace)|<img width="300" src="https://user-images.githubusercontent.com/95124230/174225341-22d593e8-7919-4d1e-8ac6-76da81f8abb9.gif"></br>[Shrink to Center](https://azarzadavila-manim.readthedocs.io/en/latest/animation.html#shrinktocenter)|

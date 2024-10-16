@@ -1,3 +1,5 @@
+<iframe width="250" height="380" style="width: 250px; height: 380px; overflow: hidden;" src="https://ruwix.com/widget/3d/?flags=showalg" scrolling="no"></iframe>
+
 # MathAnimation
 
 ## メモ
